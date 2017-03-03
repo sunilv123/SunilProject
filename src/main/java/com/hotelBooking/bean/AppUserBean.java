@@ -17,4 +17,10 @@ public class AppUserBean {
 	private String password;
 	
 	private String salt;
+
+	@Override
+	public String toString() {
+		return "AppUserBean [name=" + name + ", email=" + email + ", contactNumber=" + contactNumber + ", password="
+				+ password + ", salt=" + salt + "]";
+	}
 }
